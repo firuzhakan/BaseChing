@@ -147,7 +147,7 @@ export function DivinationFlow() {
     <div className="w-full max-w-3xl mx-auto">
       {!result && (
         <div className="relative animate-fade-up">
-          <label htmlFor="question" className="block text-xs sm:text-sm font-medium uppercase tracking-[0.22em] text-bone-300/70 mb-3 sm:mb-4">
+          <label htmlFor="question" className="block text-xs sm:text-sm font-medium uppercase tracking-[0.22em] text-white mb-3 sm:mb-4">
             What is your question
           </label>
           <textarea
@@ -157,7 +157,7 @@ export function DivinationFlow() {
             disabled={busy}
             placeholder="What question rests in your heart? Seek the timeless wisdom of the I Ching."
             rows={3}
-            className="w-full px-4 py-4 sm:px-6 sm:py-5 rounded-2xl bg-ink-900/80 border border-ink-700 focus:border-base-blue/70 placeholder:text-bone-300/30 placeholder:font-light text-bone-100 text-base sm:text-lg font-light leading-relaxed resize-none transition-colors"
+            className="w-full px-4 py-4 sm:px-6 sm:py-5 rounded-2xl bg-white border border-ink-700 focus:border-base-blue/70 placeholder:text-black/40 placeholder:font-light text-black text-base sm:text-lg font-light leading-relaxed resize-none transition-colors"
             maxLength={500}
           />
           <div className="mt-2 text-right text-xs text-bone-300/40">
